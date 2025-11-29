@@ -1,0 +1,60 @@
+# Configuración del Sitio
+title: Física Moderna
+description: Materiales didácticos para el curso de Física Moderna - UTEQ
+tagline: Ingeniería en Nanotecnología | Mayo - Agosto 2025
+
+# Tema
+theme: just-the-docs
+
+# URL de despliegue (ajustar cuando subas a GitHub Pages)
+url: "https://tu-usuario.github.io"
+baseurl: "/fisica-moderna"
+
+# Configuración Jekyll
+markdown: kramdown
+permalink: pretty
+
+# Excluir carpetas de recursos del build
+exclude:
+  - recursos-didacticos/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Kramdown (para ecuaciones LaTeX)
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+
+# Configuración del tema Just the Docs
+logo: null
+favicon_ico: null
+
+# Búsqueda
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Navegación
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "Universidad Tecnológica de Querétaro (UTEQ) | Física Moderna 2025"
+
+# Habilitar MathJax para ecuaciones (Just the Docs usa v3)
+aux_links:
+  "Google Classroom":
+    - "https://classroom.google.com"
+
+# Color scheme (opcional)
+color_scheme: nil
+
+# Botón "Back to top"
+back_to_top: true
+back_to_top_text: "Volver arriba"

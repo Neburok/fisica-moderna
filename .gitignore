@@ -1,0 +1,19 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+Gemfile.lock
+.bundle/
+vendor/
+
+# Sistema
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Temporales
+*~
