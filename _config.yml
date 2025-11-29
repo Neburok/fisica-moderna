@@ -6,8 +6,8 @@ tagline: Ingeniería en Nanotecnología | Mayo - Agosto 2025
 # Tema
 theme: just-the-docs
 
-# URL de despliegue (ajustar cuando subas a GitHub Pages)
-url: "https://tu-usuario.github.io"
+# URL de despliegue en GitHub Pages
+url: "https://neburok.github.io"
 baseurl: "/fisica-moderna"
 
 # Configuración Jekyll
